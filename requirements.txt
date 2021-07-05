@@ -1,0 +1,4 @@
+fiftyone==0.11.1
+fiftyone-db==0.2.1
+ipython==7.16.1
+jupyter==1.0.0
