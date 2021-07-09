@@ -6,14 +6,14 @@ This repo contains utility scripts for using the [FiftyOne package](https://gith
 
 #### Notebooks
 
-- downloading zoo datasets
-- evaluating detections
-- finding detection mistakes
-- merging datasets
+- [downloading zoo datasets](download_zoo_dataset.ipynb)
+- [evaluating detections](evaluate_detections.ipynb)
+- [finding detection mistakes](detection_mistakes.ipynb)
+- [merging datasets](merge_datasets.ipynb)
 
 #### Scripts
 
-- merging coco format datasets
+- [merging coco format datasets](merge_coco_datasets.py)
 
 ### Using Jupyter Notebook in Docker
 
