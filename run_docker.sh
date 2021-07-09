@@ -1,4 +1,4 @@
-WORKSPACE=/media/data/fiftyone
+WORKSPACE=/media/data/fiftyone_utils
 DATA=/media/data/datasets
 
 docker run -it \
