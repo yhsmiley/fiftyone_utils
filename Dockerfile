@@ -1,6 +1,7 @@
 # docker build -t fiftyone .
 
-FROM ubuntu:18.04
+# FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 ENV cwd="/home/"
 WORKDIR $cwd
@@ -19,6 +20,8 @@ RUN apt-get install -y \
     build-essential \
     libcurl4 \
     openssl
+
+# RUN DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata python3-tk
 
 # upgrade python to version 3.8 (IMPT: remove python3-dev and python3-pip if already installed)
 RUN add-apt-repository ppa:deadsnakes/ppa && apt-get install -y python3.8-dev python3.8-venv python3-pip

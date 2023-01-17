@@ -1,4 +1,4 @@
-fiftyone==0.16.2
+fiftyone==0.16.4
 fiftyone-db==0.3.0
 ipython==8.4.0
 ipywidgets==7.7.1
